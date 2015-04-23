@@ -3,6 +3,10 @@
         "foo": "string",
         "var": "identifier"
     },
+
+    // Add a nested variable to the body of this custom tag.
+    // The name of the variable will be based on the value
+    // of the var attribute
     "vars": [
         {
             "name-from-attribute": "var"

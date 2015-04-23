@@ -1,3 +1,8 @@
 <async-fragment data-provider="data.myDataProvider" var="myData">
+    <!--
+    Invoke the user-provided renderBody function with the out as the
+    first argument and the value of the user provided variable as the
+    second argument.
+    -->
     <invoke function="data.renderBody(out, myData)"/>
 </async-fragment>
