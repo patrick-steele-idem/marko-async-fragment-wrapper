@@ -1,0 +1,11 @@
+{
+    "attributes": {
+        "foo": "string",
+        "var": "identifier"
+    },
+    "vars": [
+        {
+            "name-from-attribute": "var"
+        }
+    ]
+}
